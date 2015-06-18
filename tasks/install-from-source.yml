@@ -41,7 +41,7 @@
     chdir={{ workspace }}/ruby-{{ ruby_version }}
     creates=/usr/local/bin/ruby
   with_items:
-    - ./configure --enable-shared
+    - ./configure --enable-shared --with-openssl-dir=/usr/bin
     - make
     - sudo make install
 
