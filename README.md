@@ -44,7 +44,7 @@ None.
 
     - hosts: server
       roles:
-        - { role: geerlingguy.ruby }
+        - { role: lenage.ruby }
 
 ## License
 
